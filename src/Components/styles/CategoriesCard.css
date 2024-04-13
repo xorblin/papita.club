@@ -1,0 +1,50 @@
+.categories__card {
+    width: 482px;
+    height: 550px;
+    margin: 20px;
+    border: 1.5px solid black;
+
+}
+
+.categories__card__img__container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: calc(100% - 80px);
+}
+
+.categories__card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.categories__card__img:hover {
+    transform: scale(1.1);
+}
+
+.categories__card__content {
+    height: 80px;
+    border-top: 1px solid black;
+}
+
+.categories__card__title {
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+
+.bg__dark__green {
+    background-color: #607660;
+}
+
+.bg__blue {
+    background-color: #0935ea;
+}
+
+.bg__pink {
+    background-color: #e20d82;
+}

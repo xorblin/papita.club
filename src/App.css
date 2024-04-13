@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: fit-content;
+}
+
+:root {
+  --black: #0E0E0E;
+  --gray-shade1: #EBEBEB;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
