@@ -82,9 +82,12 @@
     padding-left: 100px;
 }
 
+.papita__pro__inner__content {
+    margin-top: 200px;
+}
+
 .papita__pro__intro {
     font-size: 35px;
-    font-weight: 600;
     color: #000;
     text-transform: capitalize;
 
@@ -130,6 +133,16 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.natural__tshirt__inner__content {
+    margin-top: 30px;
+}
+
+.natural__collection {
+    color: #F2F2F2;
+    font-size: 39px;
+    font-family: "Aloevera Medium";
 }
 
 .natural__strip__container {
@@ -194,6 +207,84 @@
 }
 
 .shop__btn {
-    display: flex;
+    display: inline-flex;
+    color: #fff;
+    border: 1px solid #fff;
     flex-direction: row;
+    margin-top: 50px;
+    font-family: "Aloevera Medium";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 1s;
+    background-color: transparent;
+}
+
+.shop__btn:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -2;
+}
+
+.shop__btn:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+
+
+.shop__btn:hover:before {
+    width: 100%;
+}
+
+.shop__btn .shop__txt {
+    height: 100%;
+    padding: 10px 20px;
+    border-right: 1px solid #fff;
+}
+
+.shop__btn .shop__img {
+    padding: 10px 20px;
+}
+
+.green__btn::before {
+    color: black;
+    background-color: green;
+}
+
+.green__btn:hover {
+    color: #000;
+}
+
+.pink__btn {
+    color: #FF0091;
+    border-color: black !important;
+}
+
+.pink__btn .shop__txt {
+    border-color: black !important;
+}
+
+.pink__btn::before {
+    color: black;
+    background-color: pink;
+}
+
+.pink__btn:hover {
+    color: #000;
 }
