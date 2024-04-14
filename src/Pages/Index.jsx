@@ -2,9 +2,15 @@ import "./styles/Index.css";
 import Strip from "../assets/strip.png";
 import { Link } from "react-router-dom";
 import CatStrip from "../assets/cat__strip.png";
+
+import NaturalStripe from "../assets/natural__strip.png";
 import CategoriesImg from "../assets/categories.png";
 import categories from "../import/categories";
 import PapitaProImg from "../assets/papita__pro.png";
+import SPNatural from "../assets/natural.png";
+import Slay1 from "../assets/slay1.jpeg";
+import Slay2 from "../assets/slay2.jpeg";
+import NaturalTshirt from "../assets/natural__tshirt.png";
 import CategoriesCard from "../Components/CategoriesCard";
 export default function Index() {
   return (
@@ -56,6 +62,43 @@ export default function Index() {
         </div>
         <div className="papita__items">
           <img className="papita__pro__tshirt__img" src={PapitaProImg} alt="" />
+        </div>
+      </div>
+      <div className="natural__container row">
+        <div className="natural__items natural__tshirt__container row">
+          <img src={NaturalTshirt} alt="" />
+        </div>
+        <div className="natural__items">
+          <div className="natural__tshirt__header">
+            <img
+              className="natural__tshirt__header__img"
+              src={SPNatural}
+              alt=""
+            />
+          </div>
+          <div>
+            <p>Collection</p>
+            <Link to="">Shop Now</Link>
+          </div>
+        </div>
+      </div>
+      <div className="natural__strip__container">
+        <img className="natural__strip" src={NaturalStripe} alt="" />
+      </div>
+      <div className="white__space__container"></div>
+      <div className="slay__container row">
+        <div className="slay__items">
+          <img className="slay__img" src={Slay1} alt="" />
+        </div>
+        <div className="slay__contents__container cent">
+          <div className="slay__contents">
+            Revolutionising style <br /> by empowering <br /> individuals to{" "}
+            <br /> embrace their unique <br /> flair and confidently <br />{" "}
+            “Slay the Streets.
+          </div>
+        </div>
+        <div className="slay__items">
+          <img className="slay__img" src={Slay2} alt="" />
         </div>
       </div>
     </div>

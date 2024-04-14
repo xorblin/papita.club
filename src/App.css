@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Aloevera Bold";
+  src: url("./assets/Fonts/Aloevera-Bold.otf");
+}
+
+@font-face {
+  font-family: "Aloevera Medium";
+  src: url("./assets/Fonts/Aloevera-Medium.otf");
+}
+
+@font-face {
+  font-family: "Basement Grotesque";
+  src: url("./assets/Fonts/BasementGrotesque.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +27,10 @@
 :root {
   --black: #0E0E0E;
   --gray-shade1: #EBEBEB;
+}
+
+body {
+  font-family: "Aloevera Medium";
 }
 
 a {

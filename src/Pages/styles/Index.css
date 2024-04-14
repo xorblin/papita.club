@@ -102,3 +102,98 @@
     height: 100%;
     object-fit: cover;
 }
+
+.natural__container {
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    color: #F2F2F2;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.natural__items {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.natural__tshirt__container {
+    align-items: flex-end;
+}
+
+.natural__tshirt__header {
+    height: 200px;
+}
+
+.natural__tshirt__header__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.natural__strip__container {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    margin-top: -50px;
+}
+
+.natural__strip {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    object-fit: fill;
+
+}
+
+
+.white__space__container {
+    width: 100%;
+    height: 300px;
+    background-color: #FFF;
+}
+
+
+.slay__container {
+    width: 100%;
+    height: 700px;
+    color: #F2F2F2;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.slay__items {
+    width: 30%;
+    height: 100%;
+}
+
+.slay__contents__container {
+    width: 40%;
+    height: 100%;
+}
+
+.slay__contents {
+    width: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Basement Grotesque";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 199%;
+    letter-spacing: 0.192px;
+}
+
+.slay__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.shop__btn {
+    display: flex;
+    flex-direction: row;
+}
