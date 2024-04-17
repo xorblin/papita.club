@@ -48,3 +48,55 @@
 .bg__pink {
     background-color: #e20d82;
 }
+
+
+@media screen and (max-width: 1280px) {
+    .categories__card {
+        width: 350px;
+        height: 450px;
+    }
+
+    .categories__card__img__container {
+        height: calc(100% - 60px);
+    }
+
+    .categories__card__content {
+        height: 70px;
+    }
+
+    .categories__card__title {
+        font-size: 1.5rem;
+    }
+
+    .categories__card__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .categories__card {
+        width: 300px;
+        height: 400px;
+    }
+
+    .categories__card__img__container {
+        height: calc(100% - 60px);
+    }
+
+    .categories__card__content {
+        height: 60px;
+    }
+
+    .categories__card__title {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .categories__card {
+        width: 300px;
+        height: 400px;
+    }
+}

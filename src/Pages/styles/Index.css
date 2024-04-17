@@ -288,3 +288,52 @@
 .pink__btn:hover {
     color: #000;
 }
+
+@media screen and (max-width: 768px) {
+    .categories__card__items {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .categories__card__items {
+        width: 100% !important;
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .categories__container {
+        height: fit-content;
+    }
+
+    .categories__card__items {
+        width: 100% !important;
+    }
+
+    .categories__card__container {
+        width: ""
+    }
+
+    .categories__card__container {
+        height: fit-content;
+    }
+
+    .categories__container {
+        height: fit-content;
+    }
+
+    .categories__card__container {
+        height: fit-content;
+    }
+
+    .papita__pro__content {
+        padding-left: 20px;
+    }
+
+    .papita__pro__header {
+        font-size: 3.5rem;
+    }
+}
